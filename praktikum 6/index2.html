@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="2172030 Femmy Friscilla Susilo">
+    <title>index 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<!--ukuran zoom pada chrome 90%-->
+<style>
+    body{
+        font-family: 'Mulish',sans-serif;
+        background-image: url(asset/background.jpg);
+    }
+    #tabel-utama{
+        margin-left: 540px;  
+    }
+    #judul{
+        color: rgb(57,57,163);
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 45%;
+    }
+    #berdampingan{
+        display: flex;
+    }
+    #i1{
+        background-color: rgba(200, 214, 229,0.8);
+        border-bottom: grey solid 1px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline-width: none;
+        width: 200px;
+    }
+    #box1{
+        background-color: rgba(200, 214, 229,0.8);
+        width: 350px;
+    }
+    #form1{
+        margin-left: 90px;
+    }
+    #si{
+        font-size: 35px;
+        font-style: italic;
+        margin-top: 120px;
+        margin-left: 30px;
+        margin-bottom:15px;
+        font-weight: bold;
+    }  
+    #paragraf{
+        padding-bottom: 50px;
+        text-align: left;
+    }
+    #tombol1{
+        border-radius: 50px;
+        width: 150px;
+        height: 40px;
+        margin-left: 20px;
+        background-color: #2ed573;
+        border-color: #2ed573;
+        color:white;
+    }
+    #tombol1:hover{
+        transition: 0.3s;
+        background-color: rgba(200, 214, 229,0.8);
+        border-color: #2ed573;
+        color:#2ed573;
+    }
+    #fg{
+        color:rgb(62, 62, 202);
+        text-align: center;
+        margin-top: 9px;
+    }
+    #box2{
+        width: 350px;
+        background-color: rgba(220, 221, 225,0.8); 
+        height: 600px;
+    }
+    #re{
+        font-style: italic;
+        font-size: 32px;
+        margin-left: 40px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    #i2{
+        background-color:  rgba(220, 221, 225,0.8);
+        border-bottom: grey solid 1px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline-width: none;
+        width: 200px;
+    }
+    #tombol2{
+        border-radius: 50px;
+        width: 150px;
+        height: 40px;
+        margin-left: 20px;
+        background-color: #38ada9;
+        border-color: #38ada9;
+        color:white;    
+    }
+    #tombol2:hover{
+        transition: 0.3s;
+        background-color: rgba(220, 221, 225,0.8);
+        border-color: #38ada9;
+        color:#38ada9;
+    }
+    #form2{
+        margin-left: 80px;
+        margin-bottom: 21px;
+    }
+</style>
+<body>
+    <br>
+    <div id="judul">Fill in this form</div>
+    <br><br>
+    <div id="tabel-utama">
+        <div id="berdampingan">
+            <div id="box1">
+                <form action="" id="form1">
+                    <div id="si">Sign in</div><br>
+                    <div id="paragraf">
+                        <div style="font-size: 20px;">Email</div><br>
+                        <input type="text" id="i1" placeholder="nrp@maranatha.ac.id">
+                    </div>
+                    <div id="paragraf">
+                        <div style="font-size: 20px;">Password</div><br>
+                        <input type="password" id="i1">
+                    </div>
+                </form>
+                <div style="margin-left: 80px;"><button id="tombol1">Sign in</button></div>
+                <br>
+                <div id="fg">forgot password?</div>
+            </div>
+
+
+            <div id="box2">
+                <form action="" id="form2">
+                    <div id="re">Register</div>
+                    Name<br>
+                    <input type="text" id="i2"><br><br>
+                    Email<br>
+                    <input type="text" id="i2"><br><br>
+                    Date of birth<br>
+                    <input type="date" id="i2"><br><br>
+                    Address<br>
+                    <input type="text" id="i2"><br><br>
+                    Gender<br>
+                    <input type="radio" name="gender" value="laki-laki">Male
+                    <input type="radio" name="gender" value="perempuan">Female<br><br>
+                    Hobby<br>
+                    <input type="checkbox" name="" id=""> Singing<br>
+                    <input type="checkbox" name="" id=""> Playing<br>
+                    <input type="checkbox" name="" id=""> Ngoding<br>
+                    <br>
+                </form>
+                <div style="margin-left: 80px;"><button id="tombol2">Register</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
